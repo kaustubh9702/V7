@@ -1,7 +1,7 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import { ActivateDeactivate } from './components/ActivateDeactivate';
-import { Greeter } from './components/Greeter';
+import { DutchAuction } from './components/DutchAuction';
 import { SectionDivider } from './components/SectionDivider';
 import { SignMessage } from './components/SignMessage';
 import { WalletStatus } from './components/WalletStatus';
@@ -18,9 +18,7 @@ export function App(): ReactElement {
       <SectionDivider />
       <WalletStatus />
       <SectionDivider />
-      <SignMessage />
-      <SectionDivider />
-      <Greeter />
+      <DutchAuction />
     </StyledAppDiv>
   );
 }

@@ -125,10 +125,12 @@ function Deactivate(): ReactElement {
   );
 }
 
+
+// Connect to Wallet Provider
 export function ActivateDeactivate(): ReactElement {
   const context = useWeb3React<Provider>();
   const { error } = context;
-
+  console.log(error);
   if (!!error) {
     window.alert(getErrorMessage(error));
   }
