@@ -135,9 +135,9 @@ export function ViewContractSection({ setGreeterContractAddr, signer, contractAd
           Show info
         </StyledButton>
 
-            <StyledLabel htmlFor="reservePrice">Reserve Price: {reservePrice.toString()} </StyledLabel> 
+            <StyledLabel htmlFor="reservePrice">Initial Price: {reservePrice.toString()} </StyledLabel> 
             <StyledLabel htmlFor="priceDecrement">Price Decrement: {offerPriceDecrement.toString()}</StyledLabel>
-            <StyledLabel htmlFor="initialPrice">Initial Price: {initialPrice.toString()}</StyledLabel>
+            <StyledLabel htmlFor="initialPrice">Current Price: {initialPrice.toString()}</StyledLabel>
             <StyledLabel htmlFor="blocksOpen">No of Rounds: {blocksOpen.toString()}</StyledLabel>
             <StyledLabel htmlFor="winnerAddress">Wiiner Address: {winnerAddress.toString()}</StyledLabel>
             <StyledLabel htmlFor="sellerAddress">Seller Address: {sellerAddress.toString()}</StyledLabel>
